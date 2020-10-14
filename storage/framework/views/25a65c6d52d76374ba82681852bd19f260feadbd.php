@@ -26,7 +26,7 @@
     <th scope="col">ID</th>
       <th scope="col">Data</th>
       <th scope="col">Mensagem</th>
-      <th scope="col">Bolsa</th>
+      
       
     </tr>
   </thead>
@@ -41,7 +41,7 @@
      <td> <?php echo e($msg->id); ?></td>
         <td> <?php echo e($msg->updated_at); ?></td>
         <td> <?php echo e($msg->mensagem); ?></td>
-        <td> <?php echo e($bolsa->id_user); ?></td>
+      
    
   <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
